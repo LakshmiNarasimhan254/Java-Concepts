@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import arrLearning.Person;
+import ArrayHandling.Person;
 
 public class lambdaCompare {
 

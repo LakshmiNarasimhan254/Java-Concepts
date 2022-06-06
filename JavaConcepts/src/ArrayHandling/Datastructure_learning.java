@@ -1,4 +1,4 @@
-package arrLearning;
+package ArrayHandling;
 
 import java.util.ArrayList;
 import java.util.Collection;

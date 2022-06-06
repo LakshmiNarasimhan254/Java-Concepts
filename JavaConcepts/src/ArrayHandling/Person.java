@@ -1,4 +1,4 @@
-package arrLearning;
+package ArrayHandling;
 
 public class Person {
 	
