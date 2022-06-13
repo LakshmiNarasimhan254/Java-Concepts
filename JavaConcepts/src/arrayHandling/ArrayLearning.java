@@ -1,4 +1,4 @@
-package ArrayHandling;
+package arrayHandling;
 
 import java.util.Arrays;
 import java.util.Collections;

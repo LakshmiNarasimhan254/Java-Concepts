@@ -1,4 +1,4 @@
-package StreamConcepts;
+package streamConcepts;
 
 import java.util.Arrays;
 import java.util.Iterator;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-import ArrayHandling.Person;
+import arrayHandling.Person;
 
 public class StreamLearning {
 

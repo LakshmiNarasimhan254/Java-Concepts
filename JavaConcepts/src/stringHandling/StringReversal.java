@@ -1,5 +1,7 @@
 package stringHandling;
 
+
+
 public class StringReversal {
 	
 	public static void main(String[] args) {
@@ -23,7 +25,7 @@ public class StringReversal {
 		for(int i = 20; i>=0; i-- ){
 			 StrReverseB = StrReverseB + CharArray[i];
 		}
-		System.out.println(StrReverseB);
+		
 		
 	}
 

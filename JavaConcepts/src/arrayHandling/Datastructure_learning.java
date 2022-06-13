@@ -1,4 +1,4 @@
-package ArrayHandling;
+package arrayHandling;
 
 import java.util.ArrayList;
 import java.util.Collection;

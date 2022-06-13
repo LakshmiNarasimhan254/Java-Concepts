@@ -1,4 +1,4 @@
-package ArrayHandling;
+package arrayHandling;
 
 public class Person {
 	
