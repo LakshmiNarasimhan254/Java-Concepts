@@ -1,4 +1,4 @@
-package arrayHandling;
+package zArrayHandling;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -7,14 +7,14 @@ import java.util.List;
 
 public class ArrayLst_exp {
 	public static void main(String[] args) {	
-			List<Integer> Val= arl();
-			//System.;out.println(Val);
+		List<Integer> Val= arl();
+		//System.;out.println(Val);
 
-			Collections.sort(Val);
-			for (Integer i : Val){
-				System.out.println(i);
-			}
-			//IterationMethods();		
+		Collections.sort(Val);
+		for (Integer i : Val){
+			System.out.println(i);
+		}
+		//IterationMethods();		
 	}
 	public static ArrayList<Integer> arl(){
 		ArrayList<Integer> numbers = new ArrayList<Integer>();

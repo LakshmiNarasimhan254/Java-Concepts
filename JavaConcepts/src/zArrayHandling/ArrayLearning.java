@@ -1,4 +1,4 @@
-package arrayHandling;
+package zArrayHandling;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -8,7 +8,6 @@ import java.util.List;
 public class ArrayLearning {
 
 	public static void main(String[] args) {
-
 		List<Person> people = Arrays.asList(
 				new Person("Lakshmi","Mohan", 34),
 				new Person("Archana","Lakshmi",30),
@@ -17,12 +16,12 @@ public class ArrayLearning {
 				new Person ("Mohan","Narayana",63),
 				new Person ("Sujatha","Sathya",40),
 				new Person ("Sathya","Murali",44)					
-				);		
-		Collections.sort(people, new Comparator<Person>(){
+				);	
+			
+				Collections.sort(people, new Comparator<Person>(){
 
-			@Override
-			public int compare(Person o1, Person o2) {
-
+					@Override
+					public int compare(Person o1, Person o2) {	
 				return o1.strLastName.compareTo(o2.strLastName);
 			}
 

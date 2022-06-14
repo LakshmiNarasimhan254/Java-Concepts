@@ -1,4 +1,4 @@
-package arrayHandling;
+package zArrayHandling;
 
 import java.util.Arrays;
 
