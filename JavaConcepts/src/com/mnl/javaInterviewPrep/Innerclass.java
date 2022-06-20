@@ -1,4 +1,4 @@
-package interviewprep;
+package com.mnl.javaInterviewPrep;
 
 public class Innerclass {
 	

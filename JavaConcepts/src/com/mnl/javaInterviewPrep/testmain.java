@@ -1,4 +1,4 @@
-package interviewprep;
+package com.mnl.javaInterviewPrep;
 
 import java.util.Arrays;
 
