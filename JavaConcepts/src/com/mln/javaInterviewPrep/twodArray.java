@@ -2,7 +2,7 @@
  **Date:{date}*******
  *********************
  *********************/
-package com.mnl.javaInterviewPrep;
+package com.mln.javaInterviewPrep;
 
 /**
  ********************

@@ -1,4 +1,4 @@
-package com.mnl.javaInterviewPrep;
+package com.mln.javaInterviewPrep;
 
 public class MostRepeatedCharacter {
 

@@ -1,4 +1,4 @@
-package com.mnl.javaInterviewPrep;
+package com.mln.javaInterviewPrep;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
