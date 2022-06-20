@@ -1,15 +1,23 @@
 package interviewprep;
 
-import interviewprep.innerclass.b;
+import java.util.Arrays;
+
+import interviewprep.Innerclass.b;
 
 public class testmain {
 	public static void main(String[] args) {
-		innerclass ic = new innerclass();
-		innerclass.a ica = ic.new a();
+		Innerclass ic = new Innerclass();
+		Innerclass.a ica = ic.new a();
 		ica.p =1;
 		
-		innerclass.b icb = new b();
+		Innerclass.b icb = new b();
 		icb.q=1;;
+		
+		
+		String s = "Test";
+		char[] c1 = s.toCharArray();
+				Arrays.sort(c1);		
+			
 	}	
 	
 
