@@ -1,11 +1,11 @@
 package com.mln.javaBasics;
 
-public class staticUnderstanding {
+public class StaticUnderstanding {
 	
 	static int variable = 1;
 	int var = 0;
 	
-	public staticUnderstanding() {
+	public StaticUnderstanding() {
 		variable++;
 	}
 

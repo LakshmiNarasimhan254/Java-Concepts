@@ -26,8 +26,8 @@ public class LinkedListConcept {
 		System.out.println(ll);
 		ll.removeLastOccurrence("UFT");
 		System.out.println(ll);
-
-
+		ll.add(3, "Python");
+		System.out.println(ll);	
 		//iterating using for loop
 		for (int n = 0;n<ll.size();n++){
 			System.out.println(ll.get(n));			

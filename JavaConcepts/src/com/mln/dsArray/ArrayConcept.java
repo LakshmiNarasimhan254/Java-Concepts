@@ -1,4 +1,4 @@
-package com.mln.javaBasics;
+package com.mln.dsArray;
 
 public class ArrayConcept {
 	public static void main(String[] args) {

@@ -3,7 +3,7 @@ package com.mln.dsArrayList;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.mln.javaOOPS2.Car;
+import com.mln.javaOOPS2.*;
 
 public class ArrayListConcept {
 
@@ -45,10 +45,10 @@ public class ArrayListConcept {
 	    ar4.add(new Object());
 	    
 	    //5. Car Array ArrayList 
-	  		ArrayList<Car>ar5 = new ArrayList<Car>();
-	  	    ar5.add(new Car());
-	  	    ar5.add(new Car());
-	  	    ar5.add(new Car());
+	  		ArrayList<InheritanceUsingCar>ar5 = new ArrayList<InheritanceUsingCar>();
+	  	    ar5.add(new InheritanceUsingCar());
+	  	    ar5.add(new InheritanceUsingCar());
+	  	    ar5.add(new InheritanceUsingCar());
 	  	    
 	  	    
 	  	//6. Primitive Array ArrayList 
@@ -56,10 +56,10 @@ public class ArrayListConcept {
 	  	    
 	  	    
 	  //iterator to Traverse
-	  Iterator<Car>iterator=  ar5.iterator();
+	  Iterator<InheritanceUsingCar>iterator=  ar5.iterator();
 	   	 while (iterator.hasNext()){
-	   		 Car e1 = iterator.next();
-	   		  e1.start();
+	   		InheritanceUsingCar e1 = iterator.next();
+	   		
 	   	 }
 	  	
 
@@ -97,7 +97,8 @@ public class ArrayListConcept {
 		aL.add("1");
 		System.out.println(aL.size());
 		System.out.println(aL);
-		
+		aL.add(2,"1");
+		System.out.println(aL);
 		for(String s : aL){
 			//System.out.println(s);
 			if (s.equals("2")){

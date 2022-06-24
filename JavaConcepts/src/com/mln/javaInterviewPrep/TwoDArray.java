@@ -9,7 +9,7 @@ package com.mln.javaInterviewPrep;
  * @author laksh
  ********************
  **/
-public class twodArray {
+public class TwoDArray {
 
 	//This Method is created to see if a 2d arrays can be stored with different number of columns in each row
 	public static void main(String[] args) {
