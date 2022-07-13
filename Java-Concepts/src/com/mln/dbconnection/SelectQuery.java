@@ -29,7 +29,8 @@ public class SelectQuery {
 		ResultSet rs = statement.getResultSet();
 		
 		while(rs.next()){
-			System.out.println(rs.getString("first_name"));
+			System.out.println(rs.toString());
+		//	System.out.println(rs.getString("first_name"));
 			
 		}
 		rs.close();

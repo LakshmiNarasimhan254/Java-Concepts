@@ -9,7 +9,7 @@ public class FibonaciSeries {
 		
 		int iFirst=0;
 		int iNext = 1;
-		int iMax =100;
+		int iMax =987;
 		
 		
 		printFibonaci(iFirst,iNext,iMax);
