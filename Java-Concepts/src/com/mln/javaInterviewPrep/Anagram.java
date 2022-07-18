@@ -1,7 +1,10 @@
 package com.mln.javaInterviewPrep;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 public class Anagram {
 
 	public static void main(String[] args) {
@@ -92,6 +95,7 @@ public class Anagram {
 	}
 
 	public static List<List<String>> AnnAproach(List<String>words ){
+		Set<List<String>>anagrampairset =new HashSet<List<String>>();
 		List<List<String>> anagrampairs =new ArrayList<List<String>>();
 
 		for (int i=0;i<words.size();i++){
@@ -109,7 +113,9 @@ public class Anagram {
 						List<String> anagrampair =new ArrayList<String>();
 						anagrampair.add(word1);
 						anagrampair.add(word2);
-						anagrampairs.add(anagrampair);
+						Collections.sort(anagrampair); 
+						anagrampairset.add(anagrampair);
+						
 					}
 						
 				}
@@ -117,7 +123,7 @@ public class Anagram {
 			
 			}
 		}
-
+		anagrampairs.addAll(anagrampairset);
 
 		return anagrampairs;
 
