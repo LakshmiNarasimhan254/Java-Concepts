@@ -35,4 +35,8 @@
 		</dependency>
 
 	</dependencies>
+	<properties>
+		<sonar.organization>lakshminarasimhan254</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 </project>
