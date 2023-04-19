@@ -6,6 +6,7 @@ public class ArmstrongNumber {
 		// TODO Auto-generated method stub
 		int iNum = 153;
 		int iTempNum = iNum;
+		// Initializing the variable to 0.
 		int armstrongcheck=0;
 		
 		while(iTempNum!=0){
